@@ -1,0 +1,5 @@
+# Lazy Tunes
+
+### Background
+
+Bandcamp is a great service but it can be difficult to hunt down what your looking for. This is not because of their search but because there's just so much music on the platform itself.
