@@ -9,10 +9,11 @@
   "author": "Jonathan Chin",
   "license": "ISC",
   "devDependencies": {
-    "puppeteer": "^2.0.0"
+    "jest": "^24.9.0"
   },
   "dependencies": {
-    "jest": "^24.9.0",
+    "puppeteer": "^2.0.0",
+    "inquirer": "^7.0.1",
     "save-dev": "0.0.1-security"
   }
 }
