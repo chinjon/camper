@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 
-const cli = async () => {
+const cli = async (data) => {
   await inquirer
     .prompt([
       {
