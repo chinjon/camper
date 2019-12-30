@@ -1,5 +1,7 @@
 const userParamFlags = {
-    "--t=": "tag" 
+    "--t=": "tag",
+    "--a=": "artist",
+    "--q=": "query"
 }
 
 module.exports = userParamFlags;
