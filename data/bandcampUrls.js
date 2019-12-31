@@ -6,5 +6,11 @@ module.exports = {
     "sortField": "sort_field=",
     "popularity": "pop",
     "date": "date"
-}
+  },
+  "queryParameters": {
+    "tab": {
+      "tab": "tab",
+      "allReleases": "all_releases"
+    }
+  }
 }
