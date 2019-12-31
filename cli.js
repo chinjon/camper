@@ -12,9 +12,7 @@ const cli = async (data) => {
       }
     ])
     .then((answers) => {
-
-      open(answers.links, {app: 'firefox'})
-
+      open(answers.links, {app: 'firefox'});
     });
 }
 
