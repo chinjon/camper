@@ -9,10 +9,11 @@ const puppeteerHelpers = require('./lib/puppeteerHelpers/puppeteerHelpers.js');
 const bandcampUrls = require('./data/bandcampUrls');
 const PARAMS = getUserParams(process.argv.slice(2));
 const userParams = parseParams(PARAMS)
-const GO_TO_URL = setUrl(bandcampUrls.baseUrl + `/tag/${userParams[0].tag}`);
+const GO_TO_URL = setUrl(bandcampUrls.baseUrl + `/tag/${userParams[0].tag}` + `?tab=all_releases`);
 
 // https://bandcamp.com/tag/japan?sort_field=pop
 // https://bandcamp.com/tag/japan?sort_field=date
+// https://bandcamp.com/tag/ambient?tab=all_releases
 
 (async () => {
   const browser = await puppeteer.launch({ headless: false });
