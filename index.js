@@ -28,6 +28,6 @@ const GO_TO_URL = setUrl(bandcampUrls.baseUrl + `/tag/${userParams[0].tag}`);
 
   console.log(bandcampHrefs)
   
-  await cli();
+  await cli(bandcampHrefs);
   await browser.close();
 })();
